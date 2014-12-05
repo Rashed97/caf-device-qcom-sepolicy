@@ -91,7 +91,8 @@ BOARD_SEPOLICY_UNION += \
        vold.te \
        energyawareness.te \
        usf.te \
-       dtsconfigurator.te
+       dtsconfigurator.te \
+       wfdservice.te
 
 -include device/qcom/sepolicy/$(TARGET_BOARD_PLATFORM)/Android.mk
 
