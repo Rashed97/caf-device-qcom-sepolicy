@@ -72,6 +72,7 @@ BOARD_SEPOLICY_UNION += \
        adsprpcd.te \
        qlogd.te \
        ipacm.te \
+       ipacm-diag.te \
        dpmd.te \
        ssr_setup.te \
        subsystem_ramdump.te \
